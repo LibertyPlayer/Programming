@@ -30,6 +30,7 @@ public class Insert {
 		
 		String query = "INSERT INTO " + table + "(Company_Name) VALUES('Keine Ahnung von nichts GmbH')";
 		String query2 = "INSERT INTO " + table + "(Company_Name) VALUES('Nils stinkt GmbH')";
+		String query3 = "INSERT INTO " + table + "(Company_Name) VALUES('Nils stinkt 2 GmbH')";
 		
 		this.stmt = this.conn.createStatement();
 		this.stmt.executeUpdate(query);
