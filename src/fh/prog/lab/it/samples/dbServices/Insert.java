@@ -29,6 +29,7 @@ public class Insert {
 		boolean success = false;
 		
 		String query = "INSERT INTO " + table + "(Company_Name) VALUES('Keine Ahnung von nichts GmbH')";
+		String query2 = "INSERT INTO " + table + "(Company_Name) VALUES('Nils stinkt GmbH')";
 		
 		this.stmt = this.conn.createStatement();
 		this.stmt.executeUpdate(query);
